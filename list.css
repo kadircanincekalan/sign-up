@@ -1,0 +1,25 @@
+ol{
+    list-style-type: "\01F48F";
+}
+
+ul{
+    margin: 5px;
+    padding: 10px;
+}
+ul li{
+    border: 1px solid red;
+    color: burlywood;
+    margin: 10px;
+    border-radius: 25px;
+    list-style-type: none;
+    background-color: lightblue;
+    border-left: 15px solid;
+
+}
+li:hover{
+    background-color: gray;
+}
+
+li:before{
+    content: "selam ";
+}
